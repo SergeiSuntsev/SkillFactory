@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "OpenSans Bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "OpenSans Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans ExtraBold";
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+@font-face {
+  src: url("../fonts/Lobster-Regular.ttf");
+  font-family: "Lobster Regular";
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #ff7373;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.header-text {
+  color: #ff0000;
+  margin: 10px;
+}
+.tittle {
+  color: #172caf;
+  font-family: "Lobster Regular", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.img-background {
+  background-color: #6175f3;
+  padding: 15px;
+  text-align: center;
+  border-radius: 50%;
+}
+.img {
+  border: 4px groove #fff100;
+  border-radius: 50%;
+}
+h2 {
+  border-left: 5px solid #a60000;
+  padding-left: 5px;
+  color: #a69c00;
+  margin-top: 30px;
+  font-family: "Lobster Regular", Helvetica, Arial, sans-serif;
+}
+.footer {
+  text-align: center;
+}
+.footer-text {
+  color: #a60000;
+  margin: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.body {
+  background-color: #fff773;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+ul {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.skillfactory{
+    font-family: Helvetica, Arial, sans-serif;
+    color: #a60000;
+    margin: 5px;
+    border-top: 1px solid #ff7373;
+}
